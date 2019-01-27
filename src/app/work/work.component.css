@@ -1,0 +1,15 @@
+.work {
+    background-color:grey;
+    height: 400px;
+}
+
+.title {
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.underline {
+    border-bottom: 2px solid currentColor;
+}
