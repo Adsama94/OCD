@@ -1,0 +1,17 @@
+.team {
+    background-image: url('src/assets/pictures/team_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+}
+
+.title {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.underline {
+    border-bottom: 2px solid currentColor;
+}
