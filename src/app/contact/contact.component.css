@@ -1,0 +1,24 @@
+.team {
+    background-image: url('src/assets/pictures/contact_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.subquery {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    padding-top: 15px;
+}
+
+.underline {
+    border-bottom: 2px solid currentColor;
+}
