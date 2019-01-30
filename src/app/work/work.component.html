@@ -1,5 +1,14 @@
-<div class="work">
+<div class="work" >
   <div class="title">
     <span class="underline">Our Work</span>
   </div>
+  <div class="row links">
+    <div *ngFor="let link of youtube_links" class="spacing">
+      <iframe [src] = getlink(link) class="framesize" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    </div>
+    <div class="row photobar">
+      <div *ngFor="let ele of photo_links" class="photospacing" >
+        <img src="http://placehold.it/149X230" class="imgspacing">
+      </div>
+    </div>
 </div>
