@@ -1,5 +1,15 @@
-<div class="team">
+<div id = "ourteam" class="team">
   <div class="title">
     <span class="underline">Our Team</span>
+  </div>
+  <div *ngIf="games">
+      <ngb-carousel *ngIf="!mobile" [showNavigationArrows]="true" [showNavigationIndicators]="true">
+          <ng-template ngbSlide *ngFor="let group of gamesFormatted">
+              <div *ngFor="let game of group">
+                      <img class="" [src]="game">
+              </div>
+          </ng-template>
+      </ngb-carousel>
+
   </div>
 </div>
