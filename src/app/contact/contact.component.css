@@ -2,7 +2,7 @@
     background-image: url('src/assets/pictures/contact_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 470px;
+    height: 500px;
 }
 
 .title {
@@ -21,4 +21,8 @@
 
 .underline {
     border-bottom: 2px solid currentColor;
+}
+
+.margintop {
+    margin-top: 25px;
 }

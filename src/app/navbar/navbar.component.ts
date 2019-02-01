@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  scroll(el) {
+    let id = document.getElementById(el);
+    id.scrollIntoView();
+  }
+  
   constructor() { }
 
   ngOnInit() {
