@@ -7,7 +7,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamComponent implements OnInit {
 
-  games = [1, 2, 3, 4, 5].map(() => `https://picsum.photos/500/300?random&t=${Math.random()}`);
+  games = [
+    {
+      "url": "assets/pictures/samplepic1.jpg",
+      "name": "Sample1",
+      "role": "Samplerole1"
+    },
+    {
+      "url": "assets/pictures/samplepic2.jpg",
+      "name": "Sample2",
+      "role": "Samplerole2"
+    },
+    {
+      "url": "assets/pictures/samplepic3.jpg",
+      "name": "Sample3",
+      "role": "Samplerole3"
+    },
+    {
+      "url": "assets/pictures/samplepic4.jpg",
+      "name": "Sample4",
+      "role": "Samplerole4"
+    },
+    {
+      "url": "assets/pictures/samplepic5.jpg",
+      "name": "Sample5",
+      "role": "Samplerole5"
+    }
+  ];
   gamesformatted = [];
 
   constructor() { }
@@ -25,5 +51,4 @@ export class TeamComponent implements OnInit {
       }
     }
   }
-
 }

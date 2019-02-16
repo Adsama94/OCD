@@ -3,10 +3,10 @@
     <span class="underline">Our Team</span>
   </div>
   <div *ngIf="games">
-      <ngb-carousel *ngIf="!mobile" [showNavigationArrows]="true" [showNavigationIndicators]="true">
+      <ngb-carousel >
           <ng-template ngbSlide *ngFor="let group of gamesFormatted">
               <div *ngFor="let game of group">
-                      <img class="" [src]="game">
+                      <img  src="{{game.url}}" alt="random img">
               </div>
           </ng-template>
       </ngb-carousel>

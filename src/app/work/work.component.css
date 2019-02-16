@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 880px;
+    max-width: 100%;
 }
 
 .title {
@@ -16,10 +17,6 @@
     border-bottom: 2px solid currentColor;
 }
 
-.strechright {
-    float: right;
-    margin-right: 30px;
-}
 
 .links {
     margin-top: 30px;
@@ -27,8 +24,11 @@
     margin-right: 15px;
 }
 
-.spacing{
-    margin: 50px;
+.framecontroller{
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .framesize {
@@ -36,9 +36,7 @@
 }
 
 .photobar {
-    margin-top: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 200px;
 }
 
 .photospacing {
